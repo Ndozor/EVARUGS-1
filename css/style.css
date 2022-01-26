@@ -208,9 +208,12 @@ display: flex;
     object-fit: cover;
 }
 .about__header span{
-    background: linear-gradient(90deg, rgba(185, 1, 96, 1) 0%, rgba(61, 91, 248, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, rgba(185, 1, 96, 1) 0%, rgba(61, 91, 248, 1) 100%);
+     /* -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent;  */
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
 }
 .footer{
     position: relative;
