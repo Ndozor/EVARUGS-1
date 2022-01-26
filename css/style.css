@@ -1,7 +1,9 @@
 html, body{
     font-size: 62.5%;                    /*понизили шрифт до 10px*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    scroll-behavior: smooth;
 }
-
 img{
     width: 100%;
     height: 100%;
@@ -30,6 +32,9 @@ ul > li{
     padding-top: 2.3rem;
     padding-bottom: 2.6rem;
     color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 63%;
 }
 
 .header__telephone-img{
@@ -58,7 +63,97 @@ ul > li{
     display: flex;
     align-items: center;
 }
+.header__inst span{
+    line-height: 100%;
+}
+.main-display{
+padding-top: 4.7rem;
+}
 
+.main-display__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-display__logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.main-display__logo-img{
+    width: 10rem;
+    height: 6rem;
+    margin-right: 1.1rem;
+}
+
+.main-display__title{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+}
+
+.main-display__nav li{
+font-weight: 300;
+font-size: 18px;
+line-height: 117%;
+}
+.main-display__nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.main-display__nav li:not(:last-child){
+    margin-right: 2.5rem;
+}
+.main-display__nav{
+display: flex;
+}
+
+.main-display__center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-display__right{
+    width: 53.3rem;
+    height: 68.6rem;
+}
+.main-display__left{
+    padding-top: 19rem;
+}
+.main-display__header{
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 118%;
+    margin: 0rem;
+}
+.main-display__subheader{
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 117%;
+    text-transform: uppercase;
+
+}
+.main-display__button{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border-radius: 0.7rem;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 115%;
+    text-align: center;
+    padding: 1.5rem 3rem;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
 .footer{
     position: relative;
 }
@@ -76,6 +171,9 @@ ul > li{
 }
 .footer__header{
     margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 114%;
 }
 .footer__decor-1{
     width: 11rem;
@@ -93,4 +191,10 @@ ul > li{
     transform: translate(-50%, -50%);
     top: 47%;
     left: 77%;
+}
+
+.footer__wrap li{
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 114%;
 }
